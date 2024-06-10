@@ -245,7 +245,7 @@ referencing==0.35.1
     #   jsonschema-specifications
 regex==2024.5.15
     # via tiktoken
-requests==2.31.0
+requests==2.32.2
     # via
     #   google-api-core
     #   huggingface-hub
@@ -322,7 +322,9 @@ uritemplate==4.1.1
 urllib3==2.2.1
     # via requests
 watchdog==4.0.1
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   streamlit
 wcwidth==0.2.13
     # via prompt-toolkit
 yarl==1.9.4
